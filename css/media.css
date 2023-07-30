@@ -1,0 +1,46 @@
+@media (max-width: 820px){
+    .container{
+        padding: 0 8px;
+        margin: 0 auto;
+        
+    }
+
+    .content-item{
+        min-width: 376px;
+    }
+
+    .footer-support{
+        padding-right: 172px;
+    }
+}
+
+@media (max-width: 390px){
+    .container{
+        max-width: 1230px;
+        padding: 0 8px;
+        margin: 0 auto;
+        
+    }
+
+    .baket-button img{
+        display: none;
+    }
+    
+    .header-buttons{
+        flex-direction: row-reverse;
+    }
+
+    .footer-support{
+        flex-direction: column;
+        row-gap: 23px;
+    }
+
+    .footer-end{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    
+    .socials{
+        margin-bottom: 16px;
+    }
+}
